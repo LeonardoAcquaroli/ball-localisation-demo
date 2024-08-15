@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 # Add the parent directory to sys.path
@@ -7,6 +6,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from pipeline import BallPositionPipeline
+import cv2
 
 st.title("Automatic Ball Position - DEMO")
 
