@@ -1,3 +1,5 @@
 matplotlib
 opencv-python-headless
 ultralytics==8.2.71
+supervision
+mplsoccer
